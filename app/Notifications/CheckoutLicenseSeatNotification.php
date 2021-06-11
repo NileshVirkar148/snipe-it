@@ -14,9 +14,10 @@ class CheckoutLicenseSeatNotification extends Notification
 {
     use Queueable;
     /**
-     * @var
+     * @var 
      */
     private $params;
+    private $a;
 
     /**
      * Create a new notification instance.
